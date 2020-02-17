@@ -73,11 +73,11 @@ return [
      * Define your own layouts for the frontend if you want. You can as well edit the
      * given layouts to fit your needs.
      */
-    'layout_product-overview'          => 'butik::web.layouts.shop',
-    'layout_product-show'              => 'butik::web.layouts.shop',
-    'layout_express-checkout-delivery' => 'butik::web.layouts.express-checkout',
-    'layout_express-checkout-payment'  => 'butik::web.layouts.express-checkout',
-    'layout_checkout-receipt'          => 'butik::web.layouts.express-checkout',
+    'layout_product-overview'          => 'layout',
+    'layout_product-show'              => 'layout',
+    'layout_express-checkout-delivery' => 'layout',
+    'layout_express-checkout-payment'  => 'layout',
+    'layout_checkout-receipt'          => 'layout',
 
     /**
      * TEMPLATES
